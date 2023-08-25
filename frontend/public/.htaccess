@@ -1,0 +1,2 @@
+RewriteCond %{5000} ^443$
+RewriteRule ^(.*)$ http://65.0.74.219:5000/test$1 [L,R=301]
